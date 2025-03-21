@@ -17,9 +17,12 @@ Requirements for this
 
 So, how to install this masterpiece on your VM??
 
-First and the last step:
+Type this command in the root directory where is located the project:
 
-    In CMD type ```"C:\Program Files\qemu\qemu-system-i386.exe" -drive format=raw,file=bin\os-image``` in the root directory of the "os"
+    "C:\Program Files\qemu\qemu-system-i386.exe" -drive format=raw,file=bin\os-image
+
+Or, type . . .
+    ```qemu-system-i386.exe" -drive format=raw,file=bin\os-image```
 
 ## Authors
 
