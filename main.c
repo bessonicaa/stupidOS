@@ -1,4 +1,6 @@
 #include "extra.h"
+#include "cls.h"
+#include "colora.h"
 
 #define PIC1_C 0x20
 #define PIC1_D 0x21
@@ -56,7 +58,7 @@ int start(){
 	cls();
 	setMonitorColor(0x80 | 0x7);
 
-	char Welcome[] = "Parthenon OS\n";
+	char Welcome[] = "Pantheon OS\n";
 	char Welcome2[] = "7.6.1 BC\n\n";
 	char OSM[] = "PoS > ";
 
@@ -188,6 +190,8 @@ void handleKeypress(int code){
 		COMMAND[i] = '\0';
 		i = 0;
 		strEval(COMMAND);
+		strTest(COMMAND);
+		strColorA(COMMAND);
 		printString(OSM);
 	} 
 	else if (code == 0x0E) {  // Backspace

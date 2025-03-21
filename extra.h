@@ -1,3 +1,5 @@
+#ifndef EXTRA_H
+#define EXTRA_H
 void setMonitorColor(char);
 void cls();
 void printString(char*);
@@ -41,18 +43,11 @@ void strEval(char* CMD){
 	char cmd7[] = "INFO";
 	char cmd8[] = "PUT";
 	char cmd9[] = "GET";
-	char nothing[] = "";
 
-	char msg1[] = "\nPanthenon OS. Developed by a silly femboy. Since 2025 :sunglasses:\n";
+	char msg1[] = "\nPantheon OS. Developed by a silly femboy. Since 2025 :sunglasses:\n";
 	char error1[] = "\nWhoopsies! Unnown command :3";
-
-	if(strcmp(CMD , cmd1))
-		cls();
-
-	else if(strcmp(CMD , cmd2))
-		setMonitorColor(0x3c);
-
-	else if(strcmp(CMD , cmd3))
+	
+	if(strcmp(CMD , cmd3))
 		setMonitorColor(0x5a);
 
 	else if(strcmp(CMD , cmd4))
@@ -112,3 +107,6 @@ void put(){
 void get(){
 	read();
 }
+
+
+#endif // EXTRA_H
