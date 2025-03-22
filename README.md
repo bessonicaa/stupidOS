@@ -1,8 +1,8 @@
-# SillyOS
+# Pantheon OS
 
 Idk i made this randomly inspired by a [russian guy](https://youtu.be/dv-qcxuL_C4?si=Oeg8W-hPrlluwxU_) who made his own OS
 
-## What's SillyOS?
+## What's Pantheon?
 
 Even I dont know what'sm this piece of shitcode.
 But ig this will be an operating system
@@ -24,7 +24,7 @@ Type this command in the root directory where is located the project:
 
 Or, type . . .
     ```
-    qemu-system-i386.exe" -drive format=raw,file=bin\os-image
+    qemu-system-i386.exe -drive format=raw,file=bin\os-image
     ```
 
 ## Authors
@@ -33,6 +33,6 @@ Or, type . . .
 
 ## License
 
-This project is licensed under the MIT License (i choosed this
+This project is licensed under the MIT License (i chose this
 randomly and i dont know what it stands for, but ig its somethin
 useful, iguess...)
