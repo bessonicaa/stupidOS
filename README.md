@@ -22,7 +22,9 @@ Type this command in the root directory where is located the project:
     "C:\Program Files\qemu\qemu-system-i386.exe" -drive format=raw,file=bin\os-image
 
 Or, type . . .
-    ```qemu-system-i386.exe" -drive format=raw,file=bin\os-image```
+    ```
+    qemu-system-i386.exe" -drive format=raw,file=bin\os-image
+    ```
 
 ## Authors
 
